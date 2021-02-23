@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define count 123
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+      //常量与变量
+        
     }
     return 0;
 }
