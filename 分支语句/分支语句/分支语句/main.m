@@ -34,6 +34,19 @@ int main(int argc, const char * argv[]) {
                 NSLog(@"默认");
                 break;
         }
+                switch (b) {
+                    case 2:
+                        NSLog(@"b=2");
+                        break;
+                    case 3:
+                        NSLog(@"b=3");
+                        break;
+                        
+                    default:
+                        NSLog(@"错误");
+                        break;
+                }
+        
     }
     return 0;
 }

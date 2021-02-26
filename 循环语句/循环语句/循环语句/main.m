@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
          for循环，多次执行一个语句序列，简化管理循环变量的代码
          do···while循环，除了他是在循环主体结尾测量条件外，其他与while语句类似
          */
-      //  int a = 10;
+        int a = 10;
         /*while (a<20) {//如果条件成立
             NSLog(@"a = %d",a); //则会一直执行 a++，直到条件不成立
             a++;
@@ -29,9 +29,11 @@ int main(int argc, const char * argv[]) {
             NSLog(@"a = %d",a);
           } while (a<20);*/
         
-        /*for (a; a<20; a++) {//初始值a，先比较a<20这个条件，如果满足，则执行花括号的命令，执行完在进行a++；
-         NSLog(@"a = %d",a);
-         }*/
+        for (a; a<20; a++) {   //初始值a，先比较a<20这个条件，如果满足，则执行花括号的命令，执行完在进行a++；
+            a++;
+            NSLog(@"a = %d",a);
+            
+         }
         
         
         //循环控制语句
@@ -58,8 +60,8 @@ int main(int argc, const char * argv[]) {
             }*/
         
         //continue
-        int  a = 10;
-        do {
+      //  int  a = 10;
+        /*do {
             
             if(a == 15){
                 a = a+1;
@@ -67,7 +69,7 @@ int main(int argc, const char * argv[]) {
             }
             NSLog(@"a = %d",a);
             a++;
-        } while (a<20);
+        } while (a<20);*/
         
         
         
